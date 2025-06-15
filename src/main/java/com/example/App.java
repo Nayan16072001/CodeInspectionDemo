@@ -1,13 +1,13 @@
-package com.example;
+package com.Nayan;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+ 
+@SpringBootTest
+class CodeInspectionApplicationTests {
+ 
+	@Test
+	void contextLoads() {
+	}
+ 
 }
